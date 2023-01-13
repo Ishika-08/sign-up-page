@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  padding: 0;
+  Font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  /* background-image: url(images/desktop.png); */
+  background-color: hsl(0, 100%, 74%) ;
+  display: flex;
+  justify-content: center;
+}
+
+.signup{
+  display: flex;
+  height: 100vh;
+}
+
+.part1{
+  width:50%;
+  padding: 3%;
+  color: white;
+  margin: 40px;
+}
+
+.part1 p{
+  font-size: 25px;
+}
+
+.part2{
+  width:50%;
+  padding: 3%;
+  color: white;
+  margin: 40px;
+}
+
+h1{
+  font-weight: 800;
+  font-size: 50px;
+  text-align: left;
+  padding-top: 100px;
+}
+
+.subscription{
+  text-align: center;
+  background-color:darkblue;
+  padding:1px;
+  border-radius: 10px;
+  /* width: 100%; */
+  font-size: 20px;
+}
+
+.sign-up{
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 70vh;
+}
+
+fieldset{
+  border: none;
+}
+
+legend{
+  padding: 5%;
+  text-align: center;
+  font-weight: 700;
+  color:black;
+  font-size: 24px;
+
+}
+
+input,button{
+  padding: 10px;
+  border-radius: 10px;
+  width: 90%;
+  height: 5vh;
+  font-size: 20px;
+  border: 1px solid grey;
+}
+
+button{
+  color: white;
+  background-color: green;
+  width: 95%;
+  height: 10vh;
+  font-weight: 600;
+  border: 1px solid white;
+
+}
+
+@media(max-width:500px){
+  .signup{
+    flex-wrap: wrap;
+
+  }
+
+  .part1{
+    width:80%;
+    height: 10vh;
+    padding: 0;
+  }
+
+  .part1 p{
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .part2{
+    width:80%;
+    height: 50vh;
+  }
+
+  h1{
+    font-size: 30px;
+    padding-top: 0;
+  }
+
+  .subscription{
+    padding:5px;
+    font-size: 20px;
+  }
+
+  input,button{
+    padding: 1px;
+    font-size: 15px;
+    margin-top: -5px;
+  }
+
+  .sign-up{
+    height: 50vh
+  }
+
+}

@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+  padding: 0;
+  Font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(images/desktop.png);
+  background-color: hsl(0, 100%, 74%) ;
+  display: flex;
+  justify-content: center;
+}
+
+.part{
+   width:500px;
+   color: white;
+   margin: 40px;
+}
+
+h1{
+  font-weight: 800;
+  font-size: 50px;
+  text-align: left;
+  padding-top: 100px;
+}
+
+.subscription{
+  text-align: center;
+  background-color:darkblue;
+  padding:1px;
+  border-radius: 10px;
+  /* width: 100%; */
+  font-size: 20px;
+}
+
+.sign-up{
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+fieldset{
+  border: none;
+}
+
+legend{
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  color:black;
+  font-size: 20px;
+
+}
+
+input,button{
+  padding: 10px;
+  border-radius: 10px;
+  width: 90%;
+  font-size: 20px;
+  border: 1px solid grey;
+}
+
+button{
+  color: white;
+  background-color: green;
+  width: 95%;
+  font-weight: 600;
+  border: 1px solid white;
+
+}
+
+.footer{
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+  margin-top: -10px;
+  padding: 5px;
+}
+
+@media(max-width:500px){
+  body{
+    display: block;
+    margin-top: -100px;
+  }
+
+  .part{
+    width:80%;
+  }
+
+  h1{
+    font-size: 25px;
+  }
+
+  .subscription{
+    padding:1px;
+    font-size: 15px;
+    margin-top: -18px;
+
+  }
+
+  input,button{
+    padding: 10px;
+    font-size: 15px;
+    margin-top: -5px;
+  }
+
+}
